@@ -14,6 +14,6 @@ jobs:
           server: "${{ secrets.FTP_HOST }}"
           username: "${{ secrets.FTP_USERNAME }}"
           password: "${{ secrets.FTP_PASSWORD }}"
-          exclude: "[**/.git*, **/.git*/**, .gitpod.yml]"
+          exclude: "[**/.git*, **/.git*/**, .gitpod.yml, README.md]"
           server-dir: "${{ secrets.FTP_DIR }}"
           log-level: standard
