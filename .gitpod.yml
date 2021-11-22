@@ -1,0 +1,7 @@
+tasks:
+  - command: curl lama.sh | sh
+
+ports:
+  - port: 8080
+    visibility: private
+    onOpen: open-preview
